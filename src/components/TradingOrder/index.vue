@@ -12,7 +12,7 @@
         </headerComponst>
 
         <!-- 主视图部分 -->
-        <div class="">   
+        <div class="" style="padding-top:1px">   
             <!-- 筛选器 -->
             <div class="row positions tabs_height">
                 <van-col span="10" 
@@ -406,11 +406,11 @@ export default {
 /* 固定顶部 */
 .positions{
     position: fixed;
-    top:44 !important;
+    top:44px;
     width: 100%;
     background: #fff;
-    margin-top: -4px;
-    /* z-index: 5; */
+
+    z-index: 5;
 }
 .fixed{
     position: fixed;
@@ -473,7 +473,7 @@ export default {
 
 /* 订单列表 */
 .margin_auto{
-    margin-top: 50px;
+    margin-top: 95px;
 }
 .height{
     width: 100%;
